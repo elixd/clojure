@@ -35,10 +35,13 @@ Run function/command by name:
 | COPY                       | OS shortcut    |
 | PASTE                      | OS shortcut    |
 | UNDO                       | OS shortcut    |
-| SEARCH                     | C-s            |
+| SEARCH                     | C-s            | Press C-s again to move to next match; C-r to go backwards 
+| SELECT                     | C-space        |
 | ---------------Navigation------------------ |
-| MOVE  Cursor Word ->       | M-f "forward"  |
-| MOVE  Cursor Word <-       | M-b "backward" |
+| MOVE    One Word ->       | M-f "forward"   |
+| MOVE    One Word <-       | M-b "backward"  |
+| MOVE    Beg of line       | C-a "first ltr" |
+| MOVE    End of line       | C-e "end"       |
 
 
 

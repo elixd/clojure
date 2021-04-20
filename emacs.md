@@ -25,8 +25,23 @@ Run function/command by name:
 ```
 
 ## Modes
-| Mode            | Key   | Command         |
-| --------------- | ----- |---------------- |
+| Mode            | Key   | Command       |
+| --------------- | ----- |-------------- |
 | clojure-mode    | M-x   | clojure-mode  |
 | major-mode      | M-x   | major-mode    |
 
+## Editing
+| DELETE  Line after  "█"    | C-k            |
+| COPY                       | OS shortcut    |
+| PASTE                      | OS shortcut    |
+| UNDO                       | OS shortcut    |
+| SEARCH                     | C-s            |
+| ---------------Navigation------------------ |
+| MOVE  Cursor Word ->       | M-f "forward"  |
+| MOVE  Cursor Word <-       | M-b "backward" |
+
+
+
+
+## Links
+https://www.masteringemacs.org/article/beginners-guide-to-emacs

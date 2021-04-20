@@ -9,8 +9,3 @@
 | NEW       File        |     C-x C-f     |   <new file name>                   |
 | SAVE      File        |     C-x C-s     |   <enter>                           |
 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |

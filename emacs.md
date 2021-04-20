@@ -25,9 +25,8 @@ Run function/command by name:
 ```
 
 ## Modes
-```
 | Mode            | Key   | Command         |
 | --------------- | ----- |---------------- |
 | clojure-mode    | M-x   | <clojure-mode>  |
 | major-mode      | M-x   | <major-mode>    |
-```
+

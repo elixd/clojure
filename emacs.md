@@ -48,7 +48,19 @@
 | SPLIT     Screen    | C-x 2 | 3, 2, 1 to activate 3, 2, 1-window mode
 | DELETE    Window    | C-x 0 |
 
+# Clojure / CIDER
+| COMMAND       Object          | Key         | Comment
+| ----------------------------- | ----------- |
+| EVALUATE      Last Expression | C-x C-e     |
+| COMPILE       Buffer          | C-c C-k     | "Complier Kompile"
+| DOCS for      Symbol under █  | C-c C-d C-d |
+| GO to srs for Symbol under █  | M-. and M-, |
+| SEARCH        <text>          | C-c C-d C-a | across function names and documentation.
+| NAVIGATE      REPL History    | C-↑, C-↓    |
+
+
 
 ## Links
 https://www.masteringemacs.org/article/beginners-guide-to-emacs
 https://www.braveclojure.com/basic-emacs/
+https://github.com/clojure-emacs/cider/)

@@ -57,6 +57,13 @@
 | GO to srs for Symbol under █  | M-. and M-, |
 | SEARCH        <text>          | C-c C-d C-a | across function names and documentation.
 | NAVIGATE      REPL History    | C-↑, C-↓    |
+  
+# Editing Clojure Code
+PARADIT-MODE         | M-x paredit-mode (TOGGLE auto-close paredits)
+WRAP         Code    | M-(          | Wraps code with "()"
+MOVE         ")"     | C-→ / C-←    | Moves closing parethesis right/left including more/less code inside
+NAVIGATE to  ( or )  | C-M-b,C-M-f  | Go to begidding/end of expression
+
 
 
 
@@ -64,3 +71,4 @@
 https://www.masteringemacs.org/article/beginners-guide-to-emacs
 https://www.braveclojure.com/basic-emacs/
 https://github.com/clojure-emacs/cider/)
+https://www.braveclojure.com/do-things/

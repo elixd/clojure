@@ -1,8 +1,9 @@
 
-```
+
 # Emacs Basics
 
 ## File / Buffer commands
+```
 | COMMAND   Object    |   Emacs key   |  Flollow Up                        | Function name
 | ------------------- | ------------- | ---------------------------------- | -----------------------
 | NEW       Buffer    |   C-x b       |  <new buffer name>                 | switch-to-buffer
@@ -14,20 +15,24 @@
 ---
 | RUN       Command   |  M-x <function name> | Run function by name:
 | CANCEL    Command   |  C-g
-
+```
 ## Shortcut Key Mappings:
+```
 | Key   | Keyboard Key  |
 |------ | ------------- |  
 | C     | Ctrl          |
 | M     | Alt or ESC    |
-
+```
 ## Modes
+```
 | Mode            | Key   | Command       |
 | --------------- | ----- |-------------- |
 | clojure-mode    | M-x   | clojure-mode  |
 | major-mode      | M-x   | major-mode    |
+```
 
 ## Editing
+```
 | DELETE  Line after  "█"    | C-k                |
 | COPY                       | OS shortcut        |
 | PASTE                      | OS shortcut        |
@@ -40,15 +45,19 @@
 | MOVE    One Word <-       | M-b "backward"  |
 | MOVE    Beg of line       | C-a "first ltr" |
 | MOVE    End of line       | C-e "end"       |
+```
 
 # Windows navigation
+```
 | COMMAND   Object    | Key   |
 | ------------------- | ----- |
 | SWITCH    Window    | C-x o |
 | SPLIT     Screen    | C-x 2 | 3, 2, 1 to activate 3, 2, 1-window mode
 | DELETE    Window    | C-x 0 |
+```
 
 # Clojure / CIDER
+```
 | COMMAND       Object          | Key         | Comment
 | ----------------------------- | ----------- |
 | EVALUATE      Last Expression | C-x C-e     |
@@ -57,14 +66,15 @@
 | GO to srs for Symbol under █  | M-. and M-, |
 | SEARCH        <text>          | C-c C-d C-a | across function names and documentation.
 | NAVIGATE      REPL History    | C-↑, C-↓    |
-  
+```
+
 # Editing Clojure Code
+```
 PARADIT-MODE         | M-x paredit-mode (TOGGLE auto-close paredits)
 WRAP         Code    | M-(          | Wraps code with "()"
 MOVE         ")"     | C-→ / C-←    | Moves closing parethesis right/left including more/less code inside
 NAVIGATE to  ( or )  | C-M-b,C-M-f  | Go to begidding/end of expression
-
-
+```
 
 
 ## Links
